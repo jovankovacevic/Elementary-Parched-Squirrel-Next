@@ -157,12 +157,14 @@ const Home = (props) => {
         <Pricing14
           plan1={
             <Fragment>
-              <span className="home-text118 thq-body-large">Basic Plan</span>
+              <span className="home-text118 thq-body-large">Startup plan</span>
             </Fragment>
           }
           plan2={
             <Fragment>
-              <span className="home-text119 thq-body-large">Business plan</span>
+              <span className="home-text119 thq-body-large">
+                Expansion plan
+              </span>
             </Fragment>
           }
           plan3={
@@ -199,292 +201,372 @@ const Home = (props) => {
           content2={
             <Fragment>
               <span className="home-text125 thq-body-large">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                We specialize in top-notch software testing and quality
+                assurance services, including functional, automation, and
+                performance testing. Find testimonials from satisfied clients
+                and learn about our customized testing plans. Enjoy continuous
+                support and 24/7 assistance. 
               </span>
             </Fragment>
           }
           heading1={
             <Fragment>
-              <span className="home-text128 thq-heading-2">Pricing plan</span>
+              <span className="home-text126 thq-heading-2">Pricing plan</span>
             </Fragment>
           }
           plan1Price={
             <Fragment>
-              <span className="home-text129 thq-heading-3">$499/month</span>
+              <span className="home-text127 thq-heading-3">$499/month</span>
             </Fragment>
           }
           plan2Price={
             <Fragment>
-              <span className="home-text130 thq-heading-3">$29/mo</span>
+              <span className="home-text128 thq-heading-3">$999/month</span>
             </Fragment>
           }
           plan3Price={
             <Fragment>
-              <span className="home-text131 thq-heading-3">$49/mo</span>
+              <span className="home-text129 thq-heading-3">$1,999/month</span>
             </Fragment>
           }
           plan1Action={
             <Fragment>
-              <span className="home-text132 thq-body-small">Sign Up Now</span>
+              <span className="home-text130 thq-body-small">Sign Up Now</span>
             </Fragment>
           }
           plan1Price1={
             <Fragment>
-              <span className="home-text133 thq-heading-3">$200/yr</span>
+              <span className="home-text131 thq-heading-3">$200/yr</span>
             </Fragment>
           }
           plan1Yearly={
             <Fragment>
-              <span className="home-text134 thq-body-large">$999/year</span>
+              <span className="home-text132 thq-body-large">$4,999/year</span>
             </Fragment>
           }
           plan2Action={
             <Fragment>
-              <span className="home-text135 thq-body-small">Get started</span>
+              <span className="home-text133 thq-body-small">Get started</span>
             </Fragment>
           }
           plan2Price1={
             <Fragment>
-              <span className="home-text136 thq-heading-3">$299/yr</span>
+              <span className="home-text134 thq-heading-3">$299/yr</span>
             </Fragment>
           }
           plan2Yearly={
             <Fragment>
-              <span className="home-text137 thq-body-large">
-                or $299 yearly
+              <span className="home-text135 thq-body-large">
+                or $9,999 yearly
               </span>
             </Fragment>
           }
           plan3Action={
             <Fragment>
-              <span className="home-text138 thq-body-small">Get started</span>
+              <span className="home-text136 thq-body-small">Get started</span>
             </Fragment>
           }
           plan3Price1={
             <Fragment>
-              <span className="home-text139 thq-heading-3">$499/yr</span>
+              <span className="home-text137 thq-heading-3">$499/yr</span>
             </Fragment>
           }
           plan3Yearly={
             <Fragment>
-              <span className="home-text140 thq-body-large">
-                or $499 yearly
+              <span className="home-text138 thq-body-large">
+                or $19,990 yearly
               </span>
             </Fragment>
           }
           plan1Action1={
             <Fragment>
-              <span className="home-text141 thq-body-small">Get started</span>
+              <span className="home-text139 thq-body-small">Get started</span>
             </Fragment>
           }
           plan1Yearly1={
             <Fragment>
-              <span className="home-text142 thq-body-large">
+              <span className="home-text140 thq-body-large">
                 or $20 monthly
               </span>
             </Fragment>
           }
           plan2Action1={
             <Fragment>
-              <span className="home-text143 thq-body-small">Get started</span>
+              <span className="home-text141 thq-body-small">Get started</span>
             </Fragment>
           }
           plan2Yearly1={
             <Fragment>
-              <span className="home-text144 thq-body-large">
+              <span className="home-text142 thq-body-large">
                 or $29 monthly
               </span>
             </Fragment>
           }
           plan3Action1={
             <Fragment>
-              <span className="home-text145 thq-body-small">Get started</span>
+              <span className="home-text143 thq-body-small">Get started</span>
             </Fragment>
           }
           plan3Yearly1={
             <Fragment>
-              <span className="home-text146 thq-body-large">
+              <span className="home-text144 thq-body-large">
                 or $49 monthly
               </span>
             </Fragment>
           }
           plan1Feature1={
             <Fragment>
-              <span className="home-text147 thq-body-small">
+              <span className="home-text145 thq-body-small">
                 Functional Testing
               </span>
             </Fragment>
           }
           plan1Feature2={
             <Fragment>
-              <span className="home-text148 thq-body-small">
+              <span className="home-text146 thq-body-small">
                 1 Test Calendar per month 
               </span>
             </Fragment>
           }
           plan1Feature3={
             <Fragment>
-              <span className="home-text149 thq-body-small">
+              <span className="home-text147 thq-body-small">
                 Up to 50 Test Cases per Test Run
               </span>
             </Fragment>
           }
           plan2Feature1={
             <Fragment>
-              <span className="home-text150 thq-body-small">
-                Feature text goes here
+              <span className="home-text148 thq-body-small">
+                Functional Testing
               </span>
             </Fragment>
           }
           plan2Feature2={
             <Fragment>
-              <span className="home-text151 thq-body-small">
-                Feature text goes here
+              <span className="home-text149 thq-body-small">
+                1 Test Calendar per month
               </span>
             </Fragment>
           }
           plan2Feature3={
             <Fragment>
-              <span className="home-text152 thq-body-small">
-                Feature text goes here
+              <span className="home-text150 thq-body-small">
+                Up to 100 Test Cases per Test Run
               </span>
             </Fragment>
           }
           plan2Feature4={
             <Fragment>
-              <span className="home-text153 thq-body-small">
-                Feature text goes here
+              <span className="home-text151 thq-body-small">
+                Up to 10 Test Runs per Month
               </span>
             </Fragment>
           }
           plan3Feature1={
             <Fragment>
-              <span className="home-text154 thq-body-small">
-                Feature text goes here
+              <span className="home-text152 thq-body-small">
+                Functional Testing
               </span>
             </Fragment>
           }
           plan3Feature2={
             <Fragment>
-              <span className="home-text155 thq-body-small">
-                Feature text goes here
+              <span className="home-text153 thq-body-small">
+                <span>2 Test Calendars per Month</span>
+                <br></br>
               </span>
             </Fragment>
           }
           plan3Feature3={
             <Fragment>
               <span className="home-text156 thq-body-small">
-                Feature text goes here
+                <span>Unlimited Test Cases per Test Run</span>
+                <br></br>
               </span>
             </Fragment>
           }
           plan3Feature4={
             <Fragment>
-              <span className="home-text157 thq-body-small">
-                Feature text goes here
+              <span className="home-text159 thq-body-small">
+                <span>Unlimited Test Runs per Month</span>
+                <br></br>
               </span>
             </Fragment>
           }
           plan3Feature5={
             <Fragment>
-              <span className="home-text158 thq-body-small">
-                Feature text goes here
+              <span className="home-text162 thq-body-small">
+                <span>24/7 Priority Email &amp; Phone Support</span>
+                <br></br>
               </span>
             </Fragment>
           }
           plan1Feature11={
             <Fragment>
-              <span className="home-text159 thq-body-small">24/7 Support</span>
+              <span className="home-text165 thq-body-small">24/7 Support</span>
             </Fragment>
           }
           plan1Feature21={
             <Fragment>
-              <span className="home-text160 thq-body-small">
+              <span className="home-text166 thq-body-small">
                 Monthly Reports
               </span>
             </Fragment>
           }
           plan1Feature31={
             <Fragment>
-              <span className="home-text161 thq-body-small">
+              <span className="home-text167 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan2Feature11={
             <Fragment>
-              <span className="home-text162 thq-body-small">
+              <span className="home-text168 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan2Feature21={
             <Fragment>
-              <span className="home-text163 thq-body-small">
+              <span className="home-text169 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan2Feature31={
             <Fragment>
-              <span className="home-text164 thq-body-small">
+              <span className="home-text170 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan2Feature41={
             <Fragment>
-              <span className="home-text165 thq-body-small">
+              <span className="home-text171 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan3Feature11={
             <Fragment>
-              <span className="home-text166 thq-body-small">
+              <span className="home-text172 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan3Feature21={
             <Fragment>
-              <span className="home-text167 thq-body-small">
+              <span className="home-text173 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan3Feature31={
             <Fragment>
-              <span className="home-text168 thq-body-small">
+              <span className="home-text174 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan3Feature41={
             <Fragment>
-              <span className="home-text169 thq-body-small">
+              <span className="home-text175 thq-body-small">
                 Feature text goes here
               </span>
             </Fragment>
           }
           plan3Feature51={
             <Fragment>
-              <span className="home-text170 thq-body-small">
+              <span className="home-text176 thq-body-small">
                 Feature text goes here
+              </span>
+            </Fragment>
+          }
+          plan1Feature32={
+            <Fragment>
+              <span className="home-text177 thq-body-small">
+                <span>5 Test Runs per Month</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan1Feature321={
+            <Fragment>
+              <span className="home-text180 thq-body-small">
+                <span>Working Hours Email Support</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan1Feature3211={
+            <Fragment>
+              <span className="home-text183 thq-body-small">
+                <span>Monthly Bug Reports</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan2Feature42={
+            <Fragment>
+              <span className="home-text186 thq-body-small">
+                <span>Bi-Weekly Bug Reports</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan2Feature43={
+            <Fragment>
+              <span className="home-text189 thq-body-small">
+                <span>Working Hours Email &amp; Phone Support</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan2Feature421={
+            <Fragment>
+              <span className="home-text192 thq-body-small">
+                <span>Priority Handling of Bugs</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan3Feature52={
+            <Fragment>
+              <span className="home-text195 thq-body-small">
+                <span>Weekly Bug Reports</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan3Feature521={
+            <Fragment>
+              <span className="home-text198 thq-body-small">
+                <span>
+                  Dedicated Senior
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          plan3Feature5211={
+            <Fragment>
+              <span className="home-text201 thq-body-small">
+                <span>
+                  Priority Handling of Bugs with Faster Turnaround Times
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
               </span>
             </Fragment>
           }
@@ -492,12 +574,12 @@ const Home = (props) => {
         <CTA26
           action1={
             <Fragment>
-              <span className="home-text171">Get in Touch</span>
+              <span className="home-text204">Get in Touch</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text172 thq-body-large">
+              <span className="home-text205 thq-body-large">
                 Contact us today to discuss your testing needs and how we can
                 help you achieve your quality goals.
               </span>
@@ -505,7 +587,7 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text173 thq-heading-2">
+              <span className="home-text206 thq-heading-2">
                 Ready to Improve Your Software Quality?
               </span>
             </Fragment>
@@ -514,42 +596,42 @@ const Home = (props) => {
         <Steps2
           step1Title={
             <Fragment>
-              <span className="home-text174 thq-heading-2">
+              <span className="home-text207 thq-heading-2">
                 Initial Consultation
               </span>
             </Fragment>
           }
           step2Title={
             <Fragment>
-              <span className="home-text175 thq-heading-2">
+              <span className="home-text208 thq-heading-2">
                 Tailored Testing Plan
               </span>
             </Fragment>
           }
           step3Title={
             <Fragment>
-              <span className="home-text176 thq-heading-2">
+              <span className="home-text209 thq-heading-2">
                 Execution and Reporting
               </span>
             </Fragment>
           }
           step4Title={
             <Fragment>
-              <span className="home-text177 thq-heading-2">
+              <span className="home-text210 thq-heading-2">
                 Ongoing Support
               </span>
             </Fragment>
           }
           step1Description={
             <Fragment>
-              <span className="home-text178 thq-body-small">
+              <span className="home-text211 thq-body-small">
                 We start by understanding your software testing needs and goals.
               </span>
             </Fragment>
           }
           step2Description={
             <Fragment>
-              <span className="home-text179 thq-body-small">
+              <span className="home-text212 thq-body-small">
                 Based on the consultation, we create a customized testing
                 strategy for your software.
               </span>
@@ -557,7 +639,7 @@ const Home = (props) => {
           }
           step3Description={
             <Fragment>
-              <span className="home-text180 thq-body-small">
+              <span className="home-text213 thq-body-small">
                 Our team executes the testing plan and provides detailed reports
                 on the results.
               </span>
@@ -565,7 +647,7 @@ const Home = (props) => {
           }
           step4Description={
             <Fragment>
-              <span className="home-text181 thq-body-small">
+              <span className="home-text214 thq-body-small">
                 We offer continuous support to ensure your software maintains
                 its quality standards.
               </span>
@@ -575,7 +657,7 @@ const Home = (props) => {
         <Testimonial17
           review1={
             <Fragment>
-              <span className="home-text182 thq-body-small">
+              <span className="home-text215 thq-body-small">
                 Working with QA Company has been a game-changer for us. Their
                 attention to detail and thorough testing have significantly
                 improved the quality of our software products.
@@ -584,7 +666,7 @@ const Home = (props) => {
           }
           review2={
             <Fragment>
-              <span className="home-text183 thq-body-small">
+              <span className="home-text216 thq-body-small">
                 QA Company&apos;s automation testing services have saved us time
                 and resources while ensuring our software performs flawlessly.
                 Highly recommended!
@@ -593,7 +675,7 @@ const Home = (props) => {
           }
           review3={
             <Fragment>
-              <span className="home-text184 thq-body-small">
+              <span className="home-text217 thq-body-small">
                 The security testing provided by QA Company helped us identify
                 vulnerabilities early on, preventing potential breaches. Their
                 expertise is unmatched.
@@ -602,7 +684,7 @@ const Home = (props) => {
           }
           review4={
             <Fragment>
-              <span className="home-text185 thq-body-small">
+              <span className="home-text218 thq-body-small">
                 I appreciate the dedication and flexibility QA Company showed in
                 adapting their testing to our specific needs. They truly care
                 about delivering top-notch quality.
@@ -611,7 +693,7 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text186 thq-body-small">
+              <span className="home-text219 thq-body-small">
                 See what our clients have to say about our tailored testing
                 solutions.
               </span>
@@ -619,7 +701,7 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text187 thq-heading-2">Testimonials</span>
+              <span className="home-text220 thq-heading-2">Testimonials</span>
             </Fragment>
           }
           author1Src="https://images.unsplash.com/photo-1573495804658-7885a640fc1c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0M3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
@@ -628,50 +710,50 @@ const Home = (props) => {
           author4Src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           author1Name={
             <Fragment>
-              <span className="home-text188 thq-body-large">John Doe</span>
+              <span className="home-text221 thq-body-large">John Doe</span>
             </Fragment>
           }
           author2Name={
             <Fragment>
-              <span className="home-text189 thq-body-large">Jane Smith</span>
+              <span className="home-text222 thq-body-large">Jane Smith</span>
             </Fragment>
           }
           author3Name={
             <Fragment>
-              <span className="home-text190 thq-body-large">
+              <span className="home-text223 thq-body-large">
                 Michael Johnson
               </span>
             </Fragment>
           }
           author4Name={
             <Fragment>
-              <span className="home-text191 thq-body-large">Sarah Lee</span>
+              <span className="home-text224 thq-body-large">Sarah Lee</span>
             </Fragment>
           }
           author1Position={
             <Fragment>
-              <span className="home-text192 thq-body-small">
+              <span className="home-text225 thq-body-small">
                 CEO, Tech Company X
               </span>
             </Fragment>
           }
           author2Position={
             <Fragment>
-              <span className="home-text193 thq-body-small">
+              <span className="home-text226 thq-body-small">
                 CTO, Software Company Y
               </span>
             </Fragment>
           }
           author3Position={
             <Fragment>
-              <span className="home-text194 thq-body-small">
+              <span className="home-text227 thq-body-small">
                 Head of Development, App Company Z
               </span>
             </Fragment>
           }
           author4Position={
             <Fragment>
-              <span className="home-text195 thq-body-small">
+              <span className="home-text228 thq-body-small">
                 Product Manager, Startup A
               </span>
             </Fragment>
@@ -680,7 +762,7 @@ const Home = (props) => {
         <Contact10
           content1={
             <Fragment>
-              <span className="home-text196 thq-body-large">
+              <span className="home-text229 thq-body-large">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in ero.
               </span>
@@ -688,24 +770,24 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text197 thq-heading-2">Locations</span>
+              <span className="home-text230 thq-heading-2">Locations</span>
             </Fragment>
           }
           location1={
             <Fragment>
-              <span className="home-text198 thq-heading-3">Bucharest</span>
+              <span className="home-text231 thq-heading-3">Bucharest</span>
             </Fragment>
           }
           location2={
             <Fragment>
-              <span className="home-text199 thq-heading-3">Cluj - Napoca</span>
+              <span className="home-text232 thq-heading-3">Cluj - Napoca</span>
             </Fragment>
           }
           location1ImageSrc="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           location2ImageSrc="https://images.unsplash.com/photo-1583912086005-ac9abca6c9db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           location1Description={
             <Fragment>
-              <span className="home-text200 thq-body-large">
+              <span className="home-text233 thq-body-large">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in ero.
               </span>
@@ -713,7 +795,7 @@ const Home = (props) => {
           }
           location2Description={
             <Fragment>
-              <span className="home-text201 thq-body-large">
+              <span className="home-text234 thq-body-large">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in ero.
               </span>
@@ -723,47 +805,47 @@ const Home = (props) => {
         <Footer4
           link1={
             <Fragment>
-              <span className="home-text202 thq-body-small">Home</span>
+              <span className="home-text235 thq-body-small">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="home-text203 thq-body-small">Services</span>
+              <span className="home-text236 thq-body-small">Services</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="home-text204 thq-body-small">About Us</span>
+              <span className="home-text237 thq-body-small">About Us</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="home-text205 thq-body-small">Contact Us</span>
+              <span className="home-text238 thq-body-small">Contact Us</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="home-text206 thq-body-small">FAQ</span>
+              <span className="home-text239 thq-body-small">FAQ</span>
             </Fragment>
           }
           logoSrc="https://images.unsplash.com/photo-1573495612077-a689b084faab?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           termsLink={
             <Fragment>
-              <span className="home-text207 thq-body-small">
+              <span className="home-text240 thq-body-small">
                 Terms and Conditions
               </span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="home-text208 thq-body-small">
+              <span className="home-text241 thq-body-small">
                 Cookies Policy
               </span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="home-text209 thq-body-small">
+              <span className="home-text242 thq-body-small">
                 Privacy Policy
               </span>
             </Fragment>
@@ -881,11 +963,18 @@ const Home = (props) => {
           }
           .home-text125 {
             display: inline-block;
+          }
+          .home-text126 {
+            display: inline-block;
             text-align: center;
+          }
+          .home-text127 {
+            display: inline-block;
+            font-size: 48px;
           }
           .home-text128 {
             display: inline-block;
-            text-align: center;
+            font-size: 48px;
           }
           .home-text129 {
             display: inline-block;
@@ -893,7 +982,6 @@ const Home = (props) => {
           }
           .home-text130 {
             display: inline-block;
-            font-size: 48px;
           }
           .home-text131 {
             display: inline-block;
@@ -904,27 +992,26 @@ const Home = (props) => {
           }
           .home-text133 {
             display: inline-block;
-            font-size: 48px;
           }
           .home-text134 {
             display: inline-block;
+            font-size: 48px;
           }
           .home-text135 {
             display: inline-block;
           }
           .home-text136 {
             display: inline-block;
-            font-size: 48px;
           }
           .home-text137 {
             display: inline-block;
+            font-size: 48px;
           }
           .home-text138 {
             display: inline-block;
           }
           .home-text139 {
             display: inline-block;
-            font-size: 48px;
           }
           .home-text140 {
             display: inline-block;
@@ -968,37 +1055,13 @@ const Home = (props) => {
           .home-text153 {
             display: inline-block;
           }
-          .home-text154 {
-            display: inline-block;
-          }
-          .home-text155 {
-            display: inline-block;
-          }
           .home-text156 {
-            display: inline-block;
-          }
-          .home-text157 {
-            display: inline-block;
-          }
-          .home-text158 {
             display: inline-block;
           }
           .home-text159 {
             display: inline-block;
           }
-          .home-text160 {
-            display: inline-block;
-          }
-          .home-text161 {
-            display: inline-block;
-          }
           .home-text162 {
-            display: inline-block;
-          }
-          .home-text163 {
-            display: inline-block;
-          }
-          .home-text164 {
             display: inline-block;
           }
           .home-text165 {
@@ -1040,93 +1103,28 @@ const Home = (props) => {
           .home-text177 {
             display: inline-block;
           }
-          .home-text178 {
-            display: inline-block;
-            text-align: center;
-          }
-          .home-text179 {
-            display: inline-block;
-            text-align: center;
-          }
           .home-text180 {
             display: inline-block;
-            text-align: center;
-          }
-          .home-text181 {
-            display: inline-block;
-            text-align: center;
-          }
-          .home-text182 {
-            display: inline-block;
-            text-align: left;
           }
           .home-text183 {
             display: inline-block;
-            text-align: left;
-          }
-          .home-text184 {
-            display: inline-block;
-            text-align: left;
-          }
-          .home-text185 {
-            display: inline-block;
-            text-align: left;
           }
           .home-text186 {
-            display: inline-block;
-            text-align: center;
-          }
-          .home-text187 {
-            display: inline-block;
-          }
-          .home-text188 {
             display: inline-block;
           }
           .home-text189 {
             display: inline-block;
           }
-          .home-text190 {
-            display: inline-block;
-          }
-          .home-text191 {
-            display: inline-block;
-          }
           .home-text192 {
-            display: inline-block;
-          }
-          .home-text193 {
-            display: inline-block;
-          }
-          .home-text194 {
             display: inline-block;
           }
           .home-text195 {
             display: inline-block;
           }
-          .home-text196 {
-            display: inline-block;
-          }
-          .home-text197 {
-            display: inline-block;
-          }
           .home-text198 {
-            display: inline-block;
-            text-align: center;
-          }
-          .home-text199 {
-            display: inline-block;
-            text-align: center;
-          }
-          .home-text200 {
             display: inline-block;
           }
           .home-text201 {
-            display: inline-block;
-          }
-          .home-text202 {
-            display: inline-block;
-          }
-          .home-text203 {
             display: inline-block;
           }
           .home-text204 {
@@ -1145,6 +1143,116 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text209 {
+            display: inline-block;
+          }
+          .home-text210 {
+            display: inline-block;
+          }
+          .home-text211 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text212 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text213 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text214 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text215 {
+            display: inline-block;
+            text-align: left;
+          }
+          .home-text216 {
+            display: inline-block;
+            text-align: left;
+          }
+          .home-text217 {
+            display: inline-block;
+            text-align: left;
+          }
+          .home-text218 {
+            display: inline-block;
+            text-align: left;
+          }
+          .home-text219 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text220 {
+            display: inline-block;
+          }
+          .home-text221 {
+            display: inline-block;
+          }
+          .home-text222 {
+            display: inline-block;
+          }
+          .home-text223 {
+            display: inline-block;
+          }
+          .home-text224 {
+            display: inline-block;
+          }
+          .home-text225 {
+            display: inline-block;
+          }
+          .home-text226 {
+            display: inline-block;
+          }
+          .home-text227 {
+            display: inline-block;
+          }
+          .home-text228 {
+            display: inline-block;
+          }
+          .home-text229 {
+            display: inline-block;
+          }
+          .home-text230 {
+            display: inline-block;
+          }
+          .home-text231 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text232 {
+            display: inline-block;
+            text-align: center;
+          }
+          .home-text233 {
+            display: inline-block;
+          }
+          .home-text234 {
+            display: inline-block;
+          }
+          .home-text235 {
+            display: inline-block;
+          }
+          .home-text236 {
+            display: inline-block;
+          }
+          .home-text237 {
+            display: inline-block;
+          }
+          .home-text238 {
+            display: inline-block;
+          }
+          .home-text239 {
+            display: inline-block;
+          }
+          .home-text240 {
+            display: inline-block;
+          }
+          .home-text241 {
+            display: inline-block;
+          }
+          .home-text242 {
             fill: var(--dl-color-theme-neutral-dark);
             color: var(--dl-color-theme-neutral-dark);
             display: inline-block;
