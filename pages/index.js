@@ -597,7 +597,7 @@ const Home = (props) => {
           step1Title={
             <Fragment>
               <span className="home-text207 thq-heading-2">
-                Initial Consultation
+                Initial Consult
               </span>
             </Fragment>
           }
