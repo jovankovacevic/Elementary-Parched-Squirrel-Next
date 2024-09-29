@@ -7,7 +7,6 @@ import Pricing14 from '../components/pricing14'
 import CTA26 from '../components/cta26'
 import Steps2 from '../components/steps2'
 import Testimonial17 from '../components/testimonial17'
-import Contact10 from '../components/contact10'
 import Footer4 from '../components/footer4'
 
 const Home = (props) => {
@@ -77,7 +76,7 @@ const Home = (props) => {
               <span className="home-text109">Secondary Action</span>
             </Fragment>
           }
-          logoSrc="https://images.unsplash.com/photo-1583912268183-a34d41fe464a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTAzNXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+          logoSrc="https://images.unsplash.com/photo-1581090124420-bcab740faf94?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU5NTc5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           page1ImageSrc="https://images.unsplash.com/photo-1624957866304-9eb839c3fd99?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTAzNnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           page2ImageSrc="https://images.unsplash.com/photo-1579165466814-e646cfa4a3be?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTAzNnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           page3ImageSrc="https://images.unsplash.com/photo-1573497620166-aef748c8c792?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTAzNnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
@@ -127,17 +126,18 @@ const Home = (props) => {
           content1={
             <Fragment>
               <span className="home-text116 thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+                Our team offers top-notch software testing and quality assurance
+                services, including functional, automation, and performance
+                testing. Clients can choose from various customized testing
+                plans with continuous support and 24/7 assistance. Testimonials
+                from satisfied clients are available.
               </span>
             </Fragment>
           }
           heading1={
             <Fragment>
               <span className="home-text117 thq-heading-1">
-                Medium length hero headline goes here
+                Premium Software Testing and Quality Assurance Services
               </span>
             </Fragment>
           }
@@ -759,93 +759,50 @@ const Home = (props) => {
             </Fragment>
           }
         ></Testimonial17>
-        <Contact10
-          content1={
-            <Fragment>
-              <span className="home-text229 thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in ero.
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="home-text230 thq-heading-2">Locations</span>
-            </Fragment>
-          }
-          location1={
-            <Fragment>
-              <span className="home-text231 thq-heading-3">Bucharest</span>
-            </Fragment>
-          }
-          location2={
-            <Fragment>
-              <span className="home-text232 thq-heading-3">Cluj - Napoca</span>
-            </Fragment>
-          }
-          location1ImageSrc="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-          location2ImageSrc="https://images.unsplash.com/photo-1583912086005-ac9abca6c9db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-          location1Description={
-            <Fragment>
-              <span className="home-text233 thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in ero.
-              </span>
-            </Fragment>
-          }
-          location2Description={
-            <Fragment>
-              <span className="home-text234 thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in ero.
-              </span>
-            </Fragment>
-          }
-        ></Contact10>
         <Footer4
           link1={
             <Fragment>
-              <span className="home-text235 thq-body-small">Home</span>
+              <span className="home-text229 thq-body-small">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="home-text236 thq-body-small">Services</span>
+              <span className="home-text230 thq-body-small">Services</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="home-text237 thq-body-small">About Us</span>
+              <span className="home-text231 thq-body-small">About Us</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="home-text238 thq-body-small">Contact Us</span>
+              <span className="home-text232 thq-body-small">Contact Us</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="home-text239 thq-body-small">FAQ</span>
+              <span className="home-text233 thq-body-small">FAQ</span>
             </Fragment>
           }
           logoSrc="https://images.unsplash.com/photo-1573495612077-a689b084faab?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNzU1OTA0NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
           termsLink={
             <Fragment>
-              <span className="home-text240 thq-body-small">
+              <span className="home-text234 thq-body-small">
                 Terms and Conditions
               </span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="home-text241 thq-body-small">
+              <span className="home-text235 thq-body-small">
                 Cookies Policy
               </span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="home-text242 thq-body-small">
+              <span className="home-text236 thq-body-small">
                 Privacy Policy
               </span>
             </Fragment>
@@ -921,11 +878,9 @@ const Home = (props) => {
           }
           .home-text116 {
             display: inline-block;
-            text-align: center;
           }
           .home-text117 {
             display: inline-block;
-            text-align: center;
           }
           .home-text118 {
             display: inline-block;
@@ -1219,11 +1174,9 @@ const Home = (props) => {
           }
           .home-text231 {
             display: inline-block;
-            text-align: center;
           }
           .home-text232 {
             display: inline-block;
-            text-align: center;
           }
           .home-text233 {
             display: inline-block;
@@ -1235,24 +1188,6 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text236 {
-            display: inline-block;
-          }
-          .home-text237 {
-            display: inline-block;
-          }
-          .home-text238 {
-            display: inline-block;
-          }
-          .home-text239 {
-            display: inline-block;
-          }
-          .home-text240 {
-            display: inline-block;
-          }
-          .home-text241 {
-            display: inline-block;
-          }
-          .home-text242 {
             fill: var(--dl-color-theme-neutral-dark);
             color: var(--dl-color-theme-neutral-dark);
             display: inline-block;

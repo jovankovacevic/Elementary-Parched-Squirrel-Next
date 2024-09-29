@@ -13,10 +13,13 @@ const Steps2 = (props) => {
                 Discover the Power of Our Products
               </h2>
               <p className="thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+                Our company specializes in providing top-notch software testing
+                and quality assurance services. We offer a variety of testing
+                plans, including functional, automation, and performance
+                testing, along with continuous support and round-the-clock
+                assistance. Clients can access testimonials and select tailored
+                testing plans. Additionally, the website features details on our
+                company&apos;s methodology, services, and client feedback.
               </p>
               <div className="steps2-actions">
                 <button className="thq-button-filled thq-button-animated steps2-button">
